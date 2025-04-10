@@ -1,0 +1,1 @@
+A simple fluid simulation created using physics bodies and WebGL shaders. Move the mouse (or your finger) through the fluid to interact with it. Click or tap to show the physics objects that are behind the simulation. The liquid is faked by using physics particles to provide a base texture and shaders to modify that texture to look like a liquid.

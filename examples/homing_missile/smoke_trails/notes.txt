@@ -1,0 +1,3 @@
+The missile will target the pointer (or tap). Move the pointer around the example area.
+
+What's a missile without a smoke trail? A simple particle emitter is attached to the tail of the missile. The tricky part is continuously repositioning the emitter at the tail of the rocket in Missile.prototype.update.

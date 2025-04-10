@@ -1,0 +1,3 @@
+Use the left and right arrow keys or tap near the edges to rotate the ship. Press the up arrow key or tap the center to turn on the engine.
+
+The world now has gravity and a ground you can land on. The ship's ACCELERATION must be stronger than GRAVITY or it will never be able to move up.

@@ -1,0 +1,3 @@
+The object will follow wherever you point or tap.
+
+Because all of the following logic is self-contained in the Follower class, you can have as many different Followers or groups of Followers as you need. In this example, a second group of Followers is added that targets a flag moving around the perimeter of the stage.

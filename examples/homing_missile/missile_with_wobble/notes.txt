@@ -1,0 +1,4 @@
+The missile will target the pointer (or tap). Move the pointer around the example area.
+
+This example adds a neat little wobble to the straight line motion of the missile. It's purely visual but adds a lot of character. The wobble is implemented as a variable this.wobble that tweens back and forth between two values.
+

@@ -1,0 +1,3 @@
+Click or tap to fire an artillery shell. Hold to fire multiple shots.
+
+The trajectory is calculated and plotted based on the firing angle, gravity, and initial bullet velocity.

@@ -1,0 +1,3 @@
+The missiles will target the pointer (or tap). Move the pointer around the example area.
+
+Launching multiple missiles is as simple as creating a new Missile() since all of the steering control for each missile is self-contained within the missile object itself.

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game Mechanics Generator</title>
+        <script src="./vendor/phaser.min.js"></script>
+        <script src="./main.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container" id="container">
+            <h1>Game Mechanics Generator</h1>
+            <div class="mechanics-form">
+                <div class="form-group">
+
+                    <label for="mechanic-name-label" id="mechanic-name-label">Mechanic Name</label>
+                    <div class="label-content" id="mechanic-name-content"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="mechanic-notes-label" id="mechanic-notes-label">Mechanic Notes</label>
+                    <div class="label-content" id="mechanic-notes-content"></div>
+                </div>
+                <div class="form-group">
+                    <label for="mechanic-controls-label" id="mechanic-controls-label">Mechanic Controls</label>
+                    <div class="label-content" id="mechanic-controls-content"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="mechanics-theme-textarea">Mechanic Description</label>
+                    <textarea
+                        id="mechanics-theme-textarea"
+                        placeholder="Enter your game theme description here..."
+                        rows="4"
+                    ></textarea>
+                </div>
+
+                <button id="generate-button" class="generate-btn">
+                    <span class="btn-text">Generate</span>
+                    <span class="btn-icon">→</span>
+                </button>
+            </div>
+        </div>
+        <div id ="game" style="max-height:450px;max-width:848px;padding:0; margin-left:auto; margin-right:auto;"></div>
+    </body>
+</html>

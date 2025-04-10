@@ -1,0 +1,3 @@
+The object will follow wherever you point or tap.
+
+In the Multiple Followers example, you may have noticed that the followers don't move very organically when they cross paths or when making tight turns. They behave sort of like a chain lying on the ground. This example addresses that by recording a path history for each Follower. Each follower will use the history to follow exactly the same path as its target.

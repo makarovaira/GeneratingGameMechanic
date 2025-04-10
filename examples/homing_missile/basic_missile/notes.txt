@@ -1,0 +1,1 @@
+This example implements a basic homing missile algorithm. The missile will automatically steer itself towards the pointer (or tap). Move the pointer around the example area. The missile's turning radius is determined by the variables this.SPEED and this.TURN_RATE.
